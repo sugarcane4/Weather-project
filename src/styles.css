@@ -1,0 +1,98 @@
+.App {
+  font-family: "Press Start 2P";
+  text-align: center;
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.4 ease-out;
+  font-size: 10px;
+}
+
+.sol {
+  width: 00px;
+}
+
+body {
+  background: linear-gradient(#727272, #727272);
+  overflow: hidden;
+}
+
+main {
+  min-height: 100vh;
+  padding: 25px;
+}
+
+.search-box {
+  width: 100%;
+  margin: 0 0 75px;
+}
+
+.search-box .search-bar {
+  display: block;
+  width: 100%;
+  padding: 15px;
+
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 16px 16px 16px 16px;
+
+  box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
+
+  color: #313131;
+  transition: 0.4s ease;
+}
+
+.search-box .search-bar:focus {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.location-box .location {
+  font-family: "Press Start 2P";
+  font-size: 14px;
+  font-weight: lighter;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.location-box .date {
+  font-family: "Press Start 2P";
+  font-size: 14px;
+  font-weight: lighter;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.weather-box .temp {
+  font-family: "Press Start 2P";
+  font-size: 30px;
+  font-weight: lighter;
+  display: inline-block;
+  margin: 30px auto;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  border-radius: 16px;
+
+  padding: 15px 25px;
+
+  color: #fff;
+
+  background-color: rgba(143, 121, 115, 0.534);
+  text-shadow: 3px 6px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  box-shadow: 3px 6px rgba(33, 27, 53, 0.2);
+  border: 6px inset;
+}
+
+.weather {
+  font-family: "Press Start 2P";
+  font-size: 14px;
+  font-weight: lighter;
+  color: rgb(0, 0, 0);
+}
+
+.results:hover {
+  transform: scale(1.2);
+}
